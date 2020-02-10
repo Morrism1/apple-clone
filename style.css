@@ -1,0 +1,203 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    width: min-content;
+}
+
+header {
+    margin-top: 85px;
+    margin-left: 175px;
+    background-image: url(./images/navbackground.png);
+    background-repeat: no-repeat;
+    height: 35px;
+    border-radius: 3px;
+    width: 980px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    grid-template-rows: 4fr 4fr 3fr 1fr;
+}
+
+main {
+    grid-column: 1/5;
+    grid-row: 1/3;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 100%;
+    padding: 0px;
+    text-align: left;
+    top: 0px;
+    bottom: 0px;
+    right: auto;
+    left: 50%;
+    width: 1440px;
+}
+
+.bottom {
+    display: grid;
+    grid-column: 1/5;
+    grid-row: 3/4;
+    width: min-content;
+
+}
+
+.bottom img {
+    height: 200px;
+    width: 359px;
+    margin-right: 2px;
+}
+
+.img1 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+.play {
+    margin-top: 35px;
+    margin-left: 350px;
+}
+
+.verse {
+    height: 72px;
+    width: 720px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.everyone {
+    height: 84px;
+    width: 980px;
+    margin-right: auto;
+    margin-left: 124px;
+}
+
+.img {
+    margin-top: 10px;
+}
+
+.img2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+.img3 {
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+
+.img4 {
+    grid-row: 3/4;
+    grid-column: 4/5;
+    padding-right: 120px;
+    width: 371px;
+}
+
+footer {
+    margin-top: -70px;
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+}
+
+
+  
+  .icon {
+    background-image: url(./images/navs.png);
+    width: 60px;
+    height: 40px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    list-style: none;
+  }
+  
+  .icon:hover {
+    background-color: rgb(59, 58, 58);
+    overflow: hidden;
+  }
+  
+  #apple {
+    background-position: -30px 0;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+    margin-top: -370px;
+  }
+  
+  #store {
+    background-position: -30px -28px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #ipod {
+    background-position: -30px -58px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #iphone {
+    background-position: -30px -88px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #ipad {
+    background-position: -30px -118px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #itunes {
+    background-position: -30px -148px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #support {
+    background-position: -30px -178px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  #search {
+    background-position: -30px -208px;
+    width: 100px;
+    border-right: rgb(75, 74, 74) solid;
+    border-width: 1px;
+  }
+  
+  .icons {
+    background-color: grey;
+    box-shadow: 1px 3px #494949 inset;
+    width: 100px;
+    height: 20px;
+    margin-left: 849px;
+    border-radius: 20px;
+    margin-top: -37px;
+    list-style: none;
+  }
+  
+  .material-icons.md {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    margin-top: 3px;
+    padding-left: 7px;
+  }
