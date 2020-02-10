@@ -47,9 +47,11 @@ main {
 
 .bottom {
   display: grid;
-  grid-column: 1/5;
-  grid-row: 3/4;
+  grid-template-rows: repeat(4, 50px);
+  grid-template-columns: repeat(5, 338px);
   width: min-content;
+  margin-top: -199px;
+  margin-bottom: 60px;
 }
 
 .bottom img {
@@ -59,9 +61,13 @@ main {
 }
 
 .img1 {
-  grid-row: 3/4;
+  grid-row: 1/5;
   grid-column: 1/2;
   width: 337px;
+  background-image: url(https://archive.fo/UW4oR/4199f096e33e638ba9aeb6c6dec3a3e64794d02c.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin-top: 0;
 }
 
 .play {
@@ -87,23 +93,36 @@ main {
   margin-top: 10px;
 }
 
-.img2 {
-  grid-row: 3/4;
+div.img2 {
+  display: flex;
+  grid-row: 1/5;
   grid-column: 2/3;
   width: 337px;
+  background-image: url(./images/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin-top: 0;
 }
 
-.img3 {
-  grid-row: 3/4;
+div.img3 {
+  grid-row: 1/5;
   grid-column: 3/4;
   width: 337px;
+  background-image: url(./images/img3.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin-top: 0;
 }
 
-.img4 {
-  grid-row: 3/4;
+div.img4 {
+  grid-row: 1/5;
   grid-column: 4/5;
   padding-right: 120px;
   width: 337px;
+  background-image: url(./images/img4.jpg);
+  background-repeat: no-repeat;
+  background-size: initial;
+  margin-top: 0;
 }
 
 footer {
