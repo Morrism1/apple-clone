@@ -8,6 +8,7 @@ body {
     margin: 0;
     height: 100vh;
     width: min-content;
+    overflow-x: hidden;
 }
 
 header {
@@ -41,7 +42,7 @@ main {
     bottom: 0px;
     right: auto;
     left: 50%;
-    width: 1440px;
+    width: 1368px;
 }
 
 .bottom {
@@ -61,6 +62,7 @@ main {
 .img1 {
     grid-row: 3/4;
     grid-column: 1/2;
+    width: 337px;
 }
 
 .play {
@@ -89,101 +91,131 @@ main {
 .img2 {
     grid-row: 3/4;
     grid-column: 2/3;
+    width: 337px;
 }
 
 .img3 {
     grid-row: 3/4;
     grid-column: 3/4;
+    width: 337px;
 }
 
 .img4 {
     grid-row: 3/4;
     grid-column: 4/5;
     padding-right: 120px;
-    width: 371px;
+    width: 337px;
 }
 
 footer {
     margin-top: -70px;
-    background-color: black;
-    height: 10vh;
+    display: flex;
+    height: 5vh;
     width: 100vw;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(0, 136, 204);
+}
+
+.footer-link2{
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.footer-link2 img{
+    height: 16px;
+    width: 16px;
+    margin-right: 100px;
+}
+
+footer p{
+    font-family: 'Times New Roman', Times, serif;
+    Font-size: 14px;
+    Font-weight: 400;
+    Line-height: normal;
+    color: black;
 }
 
 
-  
-  .icon {
+
+.icon {
     background-image: url(./images/navs.png);
     width: 60px;
     height: 40px;
     display: inline-block;
     background-repeat: no-repeat;
     list-style: none;
-  }
-  
-  .icon:hover {
+}
+
+.icon:hover {
     background-color: rgb(59, 58, 58);
     overflow: hidden;
-  }
-  
-  #apple {
+}
+
+#apple {
     background-position: -30px 0;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
     margin-top: -370px;
-  }
-  
-  #store {
+}
+
+#store {
     background-position: -30px -28px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #ipod {
+}
+
+#ipod {
     background-position: -30px -58px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #iphone {
+}
+
+#iphone {
     background-position: -30px -88px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #ipad {
+}
+
+#ipad {
     background-position: -30px -118px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #itunes {
+}
+
+#itunes {
     background-position: -30px -148px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #support {
+}
+
+#support {
     background-position: -30px -178px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  #search {
+}
+
+#search {
     background-position: -30px -208px;
     width: 100px;
     border-right: rgb(75, 74, 74) solid;
     border-width: 1px;
-  }
-  
-  .icons {
+}
+
+.icons {
     background-color: grey;
     box-shadow: 1px 3px #494949 inset;
     width: 100px;
@@ -192,12 +224,12 @@ footer {
     border-radius: 20px;
     margin-top: -37px;
     list-style: none;
-  }
-  
-  .material-icons.md {
+}
+
+.material-icons.md {
     font-size: 16px;
     font-weight: 600;
     color: white;
     margin-top: 3px;
     padding-left: 7px;
-  }
+}
