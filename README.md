@@ -7,7 +7,7 @@
 
 ## Built With
 
-- HTML5 and
+- HTML5
 - CSS3
 
 ## Live Demo
